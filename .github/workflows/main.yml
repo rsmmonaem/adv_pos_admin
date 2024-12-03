@@ -20,9 +20,9 @@ jobs:
     - name: Setup FTP deployment
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        server: ftp.betikromfashion.com
-        username: advposadmin@advposadmin.betikromfashion.com
-        password: L7Uk.71s#HiNt1
+        server: ftp.supermanbd.com
+        username: superman_nibiz@supermanbd.com	
+        password: superman_nibiz@supermanbd.com	
         local-dir: ./
-        server-dir: /
+        server-dir: /public_html/
         exclude: .gitignore
